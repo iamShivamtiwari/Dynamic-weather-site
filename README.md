@@ -1,2 +1,2 @@
 # Dynamic Weather site
- this is a weather site to tell the latest update of your city using a real-time API
+ This is a weather site to tell the latest update of your city weather using a real-time API
