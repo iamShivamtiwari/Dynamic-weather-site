@@ -35,4 +35,4 @@ res.status(404);
 
 app.listen(port, ()=>{
     console.log(`The weather app is listening on the port ${port}`);
-})
+});

@@ -1,4 +1,21 @@
-// This is the summary or the logic of this page weathersite 
+// first of all we get the data of the submitBtn and the control of the submit button as submitBtn only.
+// Then we add a event listener to this button as "getinfo" which will be listened only when the button is clicked.
+// after that we code the eventlistener with a function object "event"
+// then we get the cityName form input value through cityVal variable
+// then putting a if else statement where in the 'if' condition the cityVal shouldn't match empty value
+// if the cityVal is empty then city_name which is a 'p' value in html will get the innertext of "write city name"   
+// and will hide the data of the class with it of the class data_hide
+// and in else condition statement we will write it in 'try and catch' statement and if there is a error we will catch that through "catch" method
+// then we will hide the data in error. otherwise we will move forward
+// in try statement we will get the api through url variable and fetch that through response variable
+// and get that reponse in 'json' format in data and then convert and get the data in array form as arrdata
+// and then put the real value of the temperature and cityname from the api into the their 'id' html 
+// and then in a variable we will get the mood of the weather like cloudy sunny 
+// then in if else statement we will check the mood and if it matches then set the font awesome icon according to that
+// and remove the class data_hide from html
+
+
+
 const submitBtn = document.getElementById("submitBtn");
 const cityName = document.getElementById("cityName");
 const city_name = document.getElementById("city_name");
